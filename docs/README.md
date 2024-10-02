@@ -19,11 +19,14 @@ Python library providing useless calculations for geometrical shapes, such as fi
 
 ### area(r)
 Find area of the circle
-#### Arguments
+
+**Arguments**
 - `r: float` - Radius of the circle 
-#### Returns
+
+**Returns**
 - `out: float` - Area of the circle
-#### Example
+
+**Example**
 ```python
 import circle
 
@@ -33,11 +36,14 @@ print(circle.area(radius)) # -> 28.274333882308138
 
 ### perimeter(r)
 Find perimeter of the circle
-#### Arguments
+
+**Arguments**
 - `r: float` - Radius of the circle 
-#### Returns
+
+**Returns**
 - `out: float` - Perimeter of the circle
-#### Example
+
+**Example**
 ```python
 import circle
 
@@ -49,12 +55,15 @@ print(circle.perimeter(radius)) # -> 18.84955592153876
 
 ### area(a, b)
 Find area of the rectangle
-#### Arguments
+
+**Arguments**
 - `a: float` - One side of the rectangle
 - `b: float` - Another side of the rectangle
-#### Returns
+
+**Returns**
 - `out: float` - Area of the rectangle
-#### Example
+
+**Example**
 ```python
 import rectangle
 
@@ -63,12 +72,15 @@ print(rectangle.area(3, 7)) # -> 21
 
 ### perimeter(a, b)
 Find perimeter of the rectangle
-#### Arguments
+
+**Arguments**
 - `a: float` - One side of the rectangle
 - `b: float` - Another side of the rectangle
-#### Returns
+
+**Returns**
 - `out: float` - Perimeter of the rectangle
-#### Example
+
+**Example**
 ```python
 import rectangle
 
@@ -79,11 +91,14 @@ print(rectangle.perimeter(3, 7)) # -> 20
 
 ### area(a)
 Find area of the square
-#### Arguments
+
+**Arguments**
 - `a: float` - Side of the square
-#### Returns
+
+**Returns**
 - `out: float` - Area of the square
-#### Example
+
+**Example**
 ```python
 import square
 
@@ -93,11 +108,14 @@ print(square.area(side)) # -> 25
 
 ### perimeter(a)
 Find perimeter of the square
-#### Arguments
+
+**Arguments**
 - `a: float` - Side of the square
-#### Returns
+
+**Returns**
 - `out: float` - Perimeter of the square
-#### Example
+
+**Example**
 ```python
 import square
 
@@ -109,12 +127,15 @@ print(square.perimeter(side)) # -> 20
 
 ### area(a, h)
 Find area of the triangle
-#### Arguments
+
+**Arguments**
 - `a: float` - Any side of the triangle
 - `h: float` - Height of the triangle, corresponding to the given side
-#### Returns
+
+**Returns**
 - `out: float` - Area of the triangle
-#### Example
+
+**Example**
 ```python
 import triangle
 
@@ -125,13 +146,16 @@ print(triangle.area(side, height)) # -> 12.0
 
 ### perimeter(a, b, c)
 Find perimeter of the triangle
-#### Arguments
+
+**Arguments**
 - `a: float` - One side of the trigangle
 - `b: float` - Second side of the trigangle
 - `c: float` - Third side of the trigangle
-#### Returns
+
+**Returns**
 - `out: float` - Perimeter of the triangle
-#### Example
+
+**Example**
 ```python
 import triangle
 
