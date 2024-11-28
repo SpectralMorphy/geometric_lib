@@ -163,6 +163,15 @@ print(triangle.perimeter(2, 3, 4)) # -> 9
 ```
 
 # Commit history
+## 28.11.2024
+- Tests done
+- Triangle's square fix for big int
+## 27.11.2024
+### 94d15a9
+- Setting up tests
+## 21.11.2024
+### 654ada7
+- Tests template
 ## 2.10.2024
 ### 0634252
 - Functions been made strict typed

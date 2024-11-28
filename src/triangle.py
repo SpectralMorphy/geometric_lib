@@ -10,6 +10,8 @@ def area(a: float, h: float) -> float:
     Returns:
         Area of the triangle
     """
+    if(a % 2 == 0 or h % 2 == 0):
+        return a * h // 2
     return a * h / 2 
 
 def perimeter(a: float, b: float, c: float) -> float:
